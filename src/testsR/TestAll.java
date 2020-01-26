@@ -94,24 +94,6 @@ public class TestAll {
         }
 
 
-        /*
-        for (int i = 0; i < methodsTests.size(); i++) {
-
-            Method m = methodsTests.put();
-
-            if(m.isAnnotationPresent(Test.class)){
-
-                try {
-                    m.invoke(testClass);
-                } catch (IllegalAccessException e) {
-                    e.printStackTrace();
-                } catch (InvocationTargetException e) {
-                    e.printStackTrace();
-                }
-            }
-
-        }
-*/
         //////////////////////////@AfterTests///////////////////////////////////
 
         for (Method m:methodsAfterSuite) {
@@ -131,16 +113,4 @@ public class TestAll {
 
     }
 
-    private static int nextOrderRun(int prioritet, Map<Integer, Method> map){
-
-        int nextPrioritet = prioritet;
-
-        if(map.containsKey(prioritet)){
-            nextPrioritet += 1;
-            nextOrderRun(nextPrioritet, map);
-        }
-
-        return nextPrioritet;
-
-    }
 }

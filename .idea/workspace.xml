@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1b68f6d-5f11-421f-af99-aaae63e3041d" name="Default Changelist" comment="" />
+    <list default="true" id="d1b68f6d-5f11-421f-af99-aaae63e3041d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/reflection/META-INF/reflection.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reflection.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testsR/TestAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testsR/TestAll.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580033792924</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Создать класс, который может выполнять «тесты». В качестве тестов выступают классы с наборами методов с аннотациями @Test. Для этого у него должен быть статический метод start(), которому в качестве параметра передается или объект типа Class, или имя класса.&#10;&#10; Из «класса-теста» вначале должен быть запущен метод с аннотацией @BeforeSuite, если такой имеется. Далее запущены методы с аннотациями @Test, а по завершении всех тестов – метод с аннотацией @AfterSuite. &#10; &#10; К каждому тесту необходимо добавить приоритеты (int числа от 1 до 10), в соответствии с которыми будет выбираться порядок их выполнения.  &#10; &#10; Если приоритет одинаковый, то порядок не имеет значения. Методы с аннотациями @BeforeSuite и @AfterSuite должны присутствовать в единственном экземпляре, иначе необходимо бросить RuntimeException при запуске «тестирования».">
+      <created>1580034072777</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580034072777</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -106,26 +118,26 @@
       <screen x="0" y="0" width="1857" height="1080" />
     </state>
     <state x="733" y="250" key="#com.intellij.ide.util.MemberChooser/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580031407643" />
-    <state x="387" y="154" width="1111" height="813" key="CommitChangelistDialog2" timestamp="1580033791562">
+    <state x="387" y="154" width="1111" height="813" key="CommitChangelistDialog2" timestamp="1580034070956">
       <screen x="0" y="0" width="1857" height="1080" />
     </state>
-    <state x="387" y="154" width="1111" height="813" key="CommitChangelistDialog2/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580033791562" />
-    <state width="1814" height="295" key="GridCell.Tab.0.bottom" timestamp="1580033687292">
+    <state x="387" y="154" width="1111" height="813" key="CommitChangelistDialog2/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580034070956" />
+    <state width="1814" height="295" key="GridCell.Tab.0.bottom" timestamp="1580039687272">
       <screen x="0" y="0" width="1857" height="1080" />
     </state>
-    <state width="1814" height="295" key="GridCell.Tab.0.bottom/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580033687292" />
-    <state width="1814" height="295" key="GridCell.Tab.0.center" timestamp="1580033687292">
+    <state width="1814" height="295" key="GridCell.Tab.0.bottom/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580039687272" />
+    <state width="1814" height="295" key="GridCell.Tab.0.center" timestamp="1580039687272">
       <screen x="0" y="0" width="1857" height="1080" />
     </state>
-    <state width="1814" height="295" key="GridCell.Tab.0.center/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580033687292" />
-    <state width="1814" height="295" key="GridCell.Tab.0.left" timestamp="1580033687292">
+    <state width="1814" height="295" key="GridCell.Tab.0.center/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580039687272" />
+    <state width="1814" height="295" key="GridCell.Tab.0.left" timestamp="1580039687272">
       <screen x="0" y="0" width="1857" height="1080" />
     </state>
-    <state width="1814" height="295" key="GridCell.Tab.0.left/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580033687292" />
-    <state width="1814" height="295" key="GridCell.Tab.0.right" timestamp="1580033687292">
+    <state width="1814" height="295" key="GridCell.Tab.0.left/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580039687272" />
+    <state width="1814" height="295" key="GridCell.Tab.0.right" timestamp="1580039687272">
       <screen x="0" y="0" width="1857" height="1080" />
     </state>
-    <state width="1814" height="295" key="GridCell.Tab.0.right/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580033687292" />
+    <state width="1814" height="295" key="GridCell.Tab.0.right/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580039687272" />
     <state width="1814" height="364" key="GridCell.Tab.1.bottom" timestamp="1580031893154">
       <screen x="0" y="0" width="1857" height="1080" />
     </state>
@@ -142,25 +154,16 @@
       <screen x="0" y="0" width="1857" height="1080" />
     </state>
     <state width="1814" height="364" key="GridCell.Tab.1.right/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580031893154" />
-    <state x="520" y="273" key="Vcs.Push.Dialog.v2" timestamp="1580033802650">
+    <state x="520" y="273" key="Vcs.Push.Dialog.v2" timestamp="1580034083760">
       <screen x="0" y="0" width="1857" height="1080" />
     </state>
-    <state x="520" y="273" key="Vcs.Push.Dialog.v2/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580033802650" />
+    <state x="520" y="273" key="Vcs.Push.Dialog.v2/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580034083760" />
     <state x="311" y="161" key="new project wizard" timestamp="1580024765201">
       <screen x="0" y="0" width="1857" height="1080" />
     </state>
     <state x="311" y="161" key="new project wizard/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580024765201" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/testsR/TestAll.java</url>
-          <line>135</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="m.getAnnotation(Test.class).prioritet()" />
