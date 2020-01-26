@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d1b68f6d-5f11-421f-af99-aaae63e3041d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1WterC9LyIMBGJT4S41tg90cdHo" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="testsR" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ClassMain (1)">
+    <configuration name="ClassMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaR.ClassMain" />
+      <module name="reflection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaR.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java.ClassMain" />
+      <module name="reflection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ClassMain (1)" />
+        <item itemvalue="Application.ClassMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1b68f6d-5f11-421f-af99-aaae63e3041d" name="Default Changelist" comment="" />
+      <created>1579973514591</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579973514591</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Создать класс, который может выполнять «тесты». В качестве тестов выступают классы с наборами методов с аннотациями @Test. Для этого у него должен быть статический метод start(), которому в качестве параметра передается или объект типа Class, или имя класса.&#10;&#10; Из «класса-теста» вначале должен быть запущен метод с аннотацией @BeforeSuite, если такой имеется. Далее запущены методы с аннотациями @Test, а по завершении всех тестов – метод с аннотацией @AfterSuite. &#10; &#10; К каждому тесту необходимо добавить приоритеты (int числа от 1 до 10), в соответствии с которыми будет выбираться порядок их выполнения.  &#10; &#10; Если приоритет одинаковый, то порядок не имеет значения. Методы с аннотациями @BeforeSuite и @AfterSuite должны присутствовать в единственном экземпляре, иначе необходимо бросить RuntimeException при запуске «тестирования».">
+      <created>1580033792924</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580033792924</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Создать класс, который может выполнять «тесты». В качестве тестов выступают классы с наборами методов с аннотациями @Test. Для этого у него должен быть статический метод start(), которому в качестве параметра передается или объект типа Class, или имя класса.&#10;&#10; Из «класса-теста» вначале должен быть запущен метод с аннотацией @BeforeSuite, если такой имеется. Далее запущены методы с аннотациями @Test, а по завершении всех тестов – метод с аннотацией @AfterSuite. &#10; &#10; К каждому тесту необходимо добавить приоритеты (int числа от 1 до 10), в соответствии с которыми будет выбираться порядок их выполнения.  &#10; &#10; Если приоритет одинаковый, то порядок не имеет значения. Методы с аннотациями @BeforeSuite и @AfterSuite должны присутствовать в единственном экземпляре, иначе необходимо бросить RuntimeException при запуске «тестирования»." />
+    <option name="LAST_COMMIT_MESSAGE" value="Создать класс, который может выполнять «тесты». В качестве тестов выступают классы с наборами методов с аннотациями @Test. Для этого у него должен быть статический метод start(), которому в качестве параметра передается или объект типа Class, или имя класса.&#10;&#10; Из «класса-теста» вначале должен быть запущен метод с аннотацией @BeforeSuite, если такой имеется. Далее запущены методы с аннотациями @Test, а по завершении всех тестов – метод с аннотацией @AfterSuite. &#10; &#10; К каждому тесту необходимо добавить приоритеты (int числа от 1 до 10), в соответствии с которыми будет выбираться порядок их выполнения.  &#10; &#10; Если приоритет одинаковый, то порядок не имеет значения. Методы с аннотациями @BeforeSuite и @AfterSuite должны присутствовать в единственном экземпляре, иначе необходимо бросить RuntimeException при запуске «тестирования»." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="733" y="250" key="#com.intellij.ide.util.MemberChooser" timestamp="1580031407643">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state x="733" y="250" key="#com.intellij.ide.util.MemberChooser/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580031407643" />
+    <state x="387" y="154" width="1111" height="813" key="CommitChangelistDialog2" timestamp="1580033791562">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state x="387" y="154" width="1111" height="813" key="CommitChangelistDialog2/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580033791562" />
+    <state width="1814" height="295" key="GridCell.Tab.0.bottom" timestamp="1580033687292">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="295" key="GridCell.Tab.0.bottom/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580033687292" />
+    <state width="1814" height="295" key="GridCell.Tab.0.center" timestamp="1580033687292">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="295" key="GridCell.Tab.0.center/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580033687292" />
+    <state width="1814" height="295" key="GridCell.Tab.0.left" timestamp="1580033687292">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="295" key="GridCell.Tab.0.left/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580033687292" />
+    <state width="1814" height="295" key="GridCell.Tab.0.right" timestamp="1580033687292">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="295" key="GridCell.Tab.0.right/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580033687292" />
+    <state width="1814" height="364" key="GridCell.Tab.1.bottom" timestamp="1580031893154">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="364" key="GridCell.Tab.1.bottom/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580031893154" />
+    <state width="1814" height="364" key="GridCell.Tab.1.center" timestamp="1580031893154">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="364" key="GridCell.Tab.1.center/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580031893154" />
+    <state width="1814" height="364" key="GridCell.Tab.1.left" timestamp="1580031893154">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="364" key="GridCell.Tab.1.left/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580031893154" />
+    <state width="1814" height="364" key="GridCell.Tab.1.right" timestamp="1580031893154">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="364" key="GridCell.Tab.1.right/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580031893154" />
+    <state x="520" y="273" key="Vcs.Push.Dialog.v2" timestamp="1580033802650">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state x="520" y="273" key="Vcs.Push.Dialog.v2/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580033802650" />
+    <state x="311" y="161" key="new project wizard" timestamp="1580024765201">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state x="311" y="161" key="new project wizard/0.0.1857.1080/-1378.78.1378.900@0.0.1857.1080" timestamp="1580024765201" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/testsR/TestAll.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="m.getAnnotation(Test.class).prioritet()" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
